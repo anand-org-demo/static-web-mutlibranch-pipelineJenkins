@@ -8,10 +8,10 @@ pipeline
         {
             steps
             {
-                scripts
-                {
+              
+                
                     echo "branch name is $BRANCH_NAME"
-                }
+                
             }
         }
     }
