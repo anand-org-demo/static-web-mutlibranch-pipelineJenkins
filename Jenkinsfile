@@ -5,15 +5,15 @@ pipeline
     agent any
     stages 
     {
-        pass
-        // stage("Cloning the Repo")
-        // {
-        //     steps
-        //     {
-        //         checkout scm
-        //     }
+        stage("Cloning the Repo")
+        {
+            steps
+            {
+                // checkout scm
+                echo "Hello"
+            }
 
-        // }
+        }
 
     }
 
